@@ -9,5 +9,6 @@ return {
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
-  -- import/override with your plugins folder
+  { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.full-dadbod" },
 }
