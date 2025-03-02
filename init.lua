@@ -7,7 +7,7 @@ if not (vim.env.LAZY or (vim.uv or vim.loop).fs_stat(lazypath)) then
 end
 vim.opt.rtp:prepend(lazypath)
 vim.opt.wrap = true
-vim.o.scrolloff = 999
+vim.o.scrolloff = 20
 
 -- validate that lazy is available
 if not pcall(require, "lazy") then
