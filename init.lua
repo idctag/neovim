@@ -8,6 +8,11 @@ end
 vim.opt.rtp:prepend(lazypath)
 vim.opt.wrap = true
 vim.o.scrolloff = 20
+vim.o.termguicolors = true
+
+-- require("notify").setup {
+--   background_colour = "#000000",
+-- }
 
 -- validate that lazy is available
 if not pcall(require, "lazy") then

@@ -11,4 +11,6 @@ return {
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.full-dadbod" },
+  { import = "astrocommunity.test.neotest" },
+  { import = "astrocommunity.pack.terraform" },
 }
